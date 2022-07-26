@@ -19,7 +19,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-       height: 200px;
+       height: 250px;
        width: 100%;
        min-width: none;
        background: rgba(201, 194, 193, 0.3);
@@ -35,19 +35,19 @@
         color: #ec5242;
         font-family: 'COCOGOOSE', sans-serif;
         font-size: 28px;
+        width: 100%;
     }
 
     #company{
         display: flex;
         flex-direction: column;
         align-items: center;
-       height: 320px;
+       height: 330px;
        width: 100%;
        border-style: solid;
        border-color: gainsboro;
        border-width: 3px;
-       margin-top: 2px;
-       min-width: none;
+       margin:auto;
        background: rgba(201, 194, 193, 0.3);   
     }
 
@@ -57,13 +57,14 @@
         font-weight: 500;
         color: black;
         font-size: 16px;
+      
     }
 
     #email{
         display: flex;
         flex-direction: column;
         align-items: center;
-       height: 100px;
+       height: 130px;
        width: 100%;
        background: rgba(201, 194, 193, 0.3);
     }
@@ -75,6 +76,8 @@
         font-weight: 500;
         color: black;
         font-size: 16px;
+        width: 100%;
+        margin: auto;
     }
     
     .logo-head,
@@ -97,7 +100,7 @@
     }
 
     .full-logo{
-        height: 230px;
+        height: 260px;
         width: 100%;
         border-style: solid;
        border-color: gainsboro;
