@@ -1,0 +1,222 @@
+@media only screen and (max-width: 768px) {
+  .top-bar,
+  #logo,
+  .desktop-menu {
+    display: none;
+  }
+
+  .mobile-menu {
+    margin-left: 30px;
+  }
+
+  .menu-icon {
+    height: 70px;
+    width: 70px;
+  }
+
+  .main-container {
+    margin-top: 60px;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .head-image {
+    opacity: 0.2;
+    position: absolute;
+    left: 5px;
+    top: -20px;
+    width: 100%;
+    height: 300px;
+  }
+
+  .header-container {
+    width: 100%;
+    height: auto;
+  }
+
+  .explore {
+    margin-left: 30px;
+    color: #ec5242;
+    font-family: 'Lato', sans-serif;
+    font-size: 30px;
+  }
+
+  .main-heading {
+    margin-left: 30px;
+    color: #ec5242;
+    font-family: 'COCOGOOSE', sans-serif;
+    font-size: 33px;
+  }
+
+  .description {
+    border-style: solid;
+    border-color: gainsboro;
+    border-width: 2px;
+    padding: 5px;
+  }
+
+  .article {
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    color: black;
+    font-size: 18px;
+  }
+
+  .download-link {
+    margin: 15px 80px 2px 80px;
+  }
+
+  .features-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    height: 680px;
+    width: 100%;
+    margin-left: -5px;
+    position: relative;
+  }
+
+  .feature-background {
+    height: 800px;
+    opacity: 0.9;
+    position: absolute;
+    left: 3px;
+    top: 20px;
+    width: 100%;
+  }
+
+  .feature-title {
+    color: #ec5242;
+    font-family: 'COCOGOOSE', sans-serif;
+    font-size: 16px;
+  }
+
+  .feature-icon {
+    display: block;
+    margin: auto;
+    margin-left: 8px;
+  }
+
+  .feature-text {
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+  }
+
+  .feature {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 27px;
+    height: 100px;
+    width: 93%;
+    margin-left: 35px;
+    background-color: rgba(223, 215, 215, 0.3);
+    top: 100px;
+    left: -10px;
+    right: 30px;
+  }
+
+  .feature-1 {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    height: 100px;
+    width: 93%;
+    background-color: rgba(223, 215, 215, 0.3);
+    top: 220px;
+    left: 25px;
+    right: 30px;
+  }
+
+  .feature-2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 22px;
+    height: 100px;
+    width: 93%;
+    position: absolute;
+    background-color: rgba(223, 215, 215, 0.3);
+    top: 340px;
+    left: 25px;
+    right: 30px;
+  }
+
+  .feature-3 {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 25px;
+    height: 100px;
+    width: 93%;
+    background-color: rgba(223, 215, 215, 0.3);
+    top: 460px;
+    left: 25px;
+    right: 30px;
+  }
+
+  .feature-4 {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 22px;
+    height: 100px;
+    width: 93%;
+    background-color: rgba(223, 215, 215, 0.3);
+    top: 580px;
+    left: 25px;
+    right: 30px;
+  }
+
+  #features {
+    color: white;
+    font-family: 'COCOGOOSE', sans-serif;
+    position: absolute;
+    top: 10px;
+  }
+
+  .join-mobile {
+    position: absolute;
+    top: 720px;
+    left: 130px;
+    right: 50px;
+    background-color: #ec5242;
+    width: 250px;
+    height: 65px;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    border: none;
+    font-size: 20px;
+  }
+
+  .partner-container {
+    display: none;
+  }
+
+  .logo-5 {
+    margin-top: 150px;
+    height: 100px;
+    width: 150px;
+  }
+
+  .footer-text {
+    margin-top: -80px;
+    margin-left: 180px;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+  }
+}
