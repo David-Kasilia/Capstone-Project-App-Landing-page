@@ -19,10 +19,6 @@
         margin-top: 60px;
         overflow: hidden;
         position: relative;
-        /* background-image: url('../images/decision-removebg-preview.png');
-        background-repeat: no-repeat;
-        height: 450px; */
-    
     }
 
     .head-image {
@@ -228,7 +224,6 @@
     }
 
     .footer-cap{
-        /* color: white; */
         font-family: 'Lato', sans-serif;
         float: right;
         margin-top: 280px;
@@ -241,7 +236,5 @@
        font-family: 'Lato', sans-serif;
     }
 
-    hr{
-        color: #ec5242;;
-    }
+
 }

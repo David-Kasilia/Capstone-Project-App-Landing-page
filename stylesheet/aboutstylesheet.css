@@ -1,0 +1,131 @@
+@media only screen and (max-width: 768px) {
+
+    .top-bar,
+    #logo,
+    .desktop-menu{
+        display: none;
+    }
+
+    .mobile-menu{
+        margin-left: 30px;
+    }
+
+    .menu-icon{
+        height: 70px;
+        width: 70px;
+    }
+
+    #heading {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+       height: 150px;
+       width: 100%;
+    }
+    .welcome{
+        color: #ec5242;
+        font-family: 'Lato', sans-serif;
+    }
+    
+    .about-header{
+        text-align: center;
+        color: #ec5242;
+        font-family: 'COCOGOOSE', sans-serif;   
+    }
+
+    #company{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+       height: 320px;
+       width: 100%;
+       border-style: solid;
+       border-color: gainsboro;
+       border-width: 2px;
+       margin-top: 30px;
+       
+    }
+
+    .company-details{
+        text-align: center;
+        font-family: 'Lato', sans-serif;
+        font-weight: 500;
+        color: black;
+    }
+
+    #email{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+       height: 100px;
+       width: 100%;
+    }
+
+    .email-text,
+    .email-link {
+        text-align: center;
+        font-family: 'Lato', sans-serif;
+        font-weight: 500;
+        color: black;
+    }
+    
+    .logo-head,
+    .more-head {
+        text-align: center;
+        color: black;
+        font-family: 'COCOGOOSE', sans-serif; 
+
+    }
+
+    .logo-text,
+    .more-text {
+        text-align: center;
+        font-family: 'Lato', sans-serif;
+        font-weight: 500;
+        color: black;
+
+    }
+
+    .full-logo{
+        height: 230px;
+        width: 100%;
+        border-style: solid;
+       border-color: gainsboro;
+       border-width: 2px;
+       padding: 5px;
+    }
+
+    #more{
+        overflow: hidden;
+        position: relative;
+        width: 100%;
+        height: 1500px;
+    }
+    .project-1{
+        opacity: 0.5;
+        position: absolute;
+        left: 5px;
+        top: 100px;
+       
+
+    }
+
+    .project-text{
+        text-align: center;
+        color: white;
+        font-family: 'COCOGOOSE', sans-serif; 
+
+
+    }
+
+    .project-2 {
+        opacity: 0.5;
+        position: absolute;
+        left: 5px;
+        top: 750px;
+        width: 100%;
+        height: 500px;
+    }
+
+
+}
