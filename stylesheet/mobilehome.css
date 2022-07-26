@@ -1,7 +1,8 @@
 @media only screen and (max-width: 768px) {
   .top-bar,
   #logo,
-  .desktop-menu {
+  .desktop-menu,
+  .desktop-image {
     display: none;
   }
 
