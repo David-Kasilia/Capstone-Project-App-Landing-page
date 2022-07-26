@@ -1,204 +1,193 @@
 @media only screen and (max-width: 768px) {
+  .top-bar,
+  #logo,
+  .desktop-menu {
+    display: none;
+  }
 
-    .top-bar,
-    #logo,
-    .desktop-menu{
-        display: none;
-    }
+  .mobile-menu {
+    margin-left: 30px;
+  }
 
-    .mobile-menu{
-        margin-left: 30px;
-    }
+  .menu-icon {
+    height: 70px;
+    width: 70px;
+  }
 
-    .menu-icon{
-        height: 70px;
-        width: 70px;
-    }
+  #heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 250px;
+    width: 100%;
+    background: rgba(201, 194, 193, 0.3);
+  }
 
-    #heading {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-       height: 250px;
-       width: 100%;
-       min-width: none;
-       background: rgba(201, 194, 193, 0.3);
-    }
-    .welcome{
-        color: #ec5242;
-        font-family: 'Lato', sans-serif;
-        font-size: 28px;
-    }
-    
-    .about-header{
-        text-align: center;
-        color: #ec5242;
-        font-family: 'COCOGOOSE', sans-serif;
-        font-size: 28px;
-        width: 100%;
-    }
+  .welcome {
+    color: #ec5242;
+    font-family: 'Lato', sans-serif;
+    font-size: 28px;
+  }
 
-    #company{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-       height: 330px;
-       width: 100%;
-       border-style: solid;
-       border-color: gainsboro;
-       border-width: 3px;
-       margin:auto;
-       background: rgba(201, 194, 193, 0.3);   
-    }
+  .about-header {
+    text-align: center;
+    color: #ec5242;
+    font-family: 'COCOGOOSE', sans-serif;
+    font-size: 28px;
+    width: 100%;
+  }
 
-    .company-details{
-        text-align: center;
-        font-family: 'Lato', sans-serif;
-        font-weight: 500;
-        color: black;
-        font-size: 16px;
-      
-    }
+  #company {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 330px;
+    width: 100%;
+    border-style: solid;
+    border-color: gainsboro;
+    border-width: 3px;
+    margin: auto;
+    background: rgba(201, 194, 193, 0.3);
+  }
 
-    #email{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-       height: 130px;
-       width: 100%;
-       background: rgba(201, 194, 193, 0.3);
-    }
+  .company-details {
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    color: black;
+    font-size: 16px;
+  }
 
-    .email-text,
-    .email-link {
-        text-align: center;
-        font-family: 'Lato', sans-serif;
-        font-weight: 500;
-        color: black;
-        font-size: 16px;
-        width: 100%;
-        margin: auto;
-    }
-    
-    .logo-head,
-    .more-head {
-        text-align: center;
-        color: black;
-        font-family: 'COCOGOOSE', sans-serif; 
-        font-size: 28px;
+  #email {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 130px;
+    width: 100%;
+    background: rgba(201, 194, 193, 0.3);
+  }
 
-    }
+  .email-text,
+  .email-link {
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    color: black;
+    font-size: 16px;
+    width: 100%;
+    margin: auto;
+  }
 
-    .logo-text,
-    .more-text {
-        text-align: center;
-        font-family: 'Lato', sans-serif;
-        font-weight: 500;
-        color: black;
-        font-size: 19px;
+  .logo-head,
+  .more-head {
+    text-align: center;
+    color: black;
+    font-family: 'COCOGOOSE', sans-serif;
+    font-size: 28px;
+  }
 
-    }
+  .logo-text,
+  .more-text {
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    color: black;
+    font-size: 19px;
+  }
 
-    .full-logo{
-        height: 260px;
-        width: 100%;
-        border-style: solid;
-       border-color: gainsboro;
-       border-width: 2px;
-       padding: 5px;
-    }
+  .full-logo {
+    height: 260px;
+    width: 100%;
+    border-style: solid;
+    border-color: gainsboro;
+    border-width: 2px;
+    padding: 5px;
+  }
 
-    #more{
-        overflow: hidden;
-        position: relative;
-        width: 100%;
-        height: 1420px;
-    }
-    .project-1{
-        opacity: 0.5;
-        position: absolute;
-        left: 55px;
-        right: 35px;
-        top: 200px;
-        background: rgba(236,82,66,.3);
-       
+  #more {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    height: 1420px;
+  }
 
-    }
+  .project-1 {
+    opacity: 0.5;
+    position: absolute;
+    left: 55px;
+    right: 35px;
+    top: 200px;
+    background: rgba(236, 82, 66, 0.3);
+  }
 
-    .project-text {
-        text-align: center;
-        color:black;
-        font-family: 'COCOGOOSE', sans-serif; 
-        margin-top: 70px;
-    }
+  .project-text {
+    text-align: center;
+    color: black;
+    font-family: 'COCOGOOSE', sans-serif;
+    margin-top: 70px;
+  }
 
-    .project-2 {
-        opacity: 0.5;
-        position: absolute;
-        left: 15px;
-        right: 15px;
-        top: 900px;
-        width: 100%;
-        height: 500px;
-        background: rgba(236,82,66,.3);
-    }
+  .project-2 {
+    opacity: 0.5;
+    position: absolute;
+    left: 15px;
+    right: 15px;
+    top: 900px;
+    width: 100%;
+    height: 500px;
+    background: rgba(236, 82, 66, 0.3);
+  }
 
-    .project-text-2{
-        text-align: center;
-        color:black;
-        font-family: 'COCOGOOSE', sans-serif; 
-        margin-top: 700px;
-    }
+  .project-text-2 {
+    text-align: center;
+    color: black;
+    font-family: 'COCOGOOSE', sans-serif;
+    margin-top: 700px;
+  }
 
-    .partner-container{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-       height: 400px;
-       width: 100%;
-       background-color: #272a31;
+  .partner-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 400px;
+    width: 100%;
+    background-color: #272a31;
+  }
 
-    }
+  #partners {
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-size: 26px;
+  }
 
-    #partners{
-        color:white;
-        font-family: 'Lato', sans-serif;
-        font-size: 26px;
+  .partner-logo {
+    margin-left: 50px;
+  }
 
-    }
+  .logo-1,
+  .logo-2,
+  .logo-3,
+  .logo-4 {
+    height: 120px;
+    width: 180px;
+  }
 
-    .partner-logo{
-        margin-left: 50px;
-    }
-    .logo-1,
-    .logo-2,
-    .logo-3,
-    .logo-4{
-        
-        height: 120px;
-        width: 180px;
-    }
+  .logo-5 {
+    margin-top: 30px;
+    height: 100px;
+    width: 150px;
+  }
 
-    .logo-5{
-        margin-top: 30px;
-         height: 100px;
-         width: 150px;
-     }
- 
-     .footer-cap{
-         font-family: 'Lato', sans-serif;
-         float: right;
-         margin-top: 30px;
-         margin-right: 200px;
-     }
- 
-     .footer-text{
-        margin-top: -80px;
-        margin-left: 180px;
-        font-family: 'Lato', sans-serif;
-     }
+  .footer-cap {
+    font-family: 'Lato', sans-serif;
+    float: right;
+    margin-top: 30px;
+    margin-right: 200px;
+  }
 
-
-
-
+  .footer-text {
+    margin-top: -80px;
+    margin-left: 180px;
+    font-family: 'Lato', sans-serif;
+  }
 }
