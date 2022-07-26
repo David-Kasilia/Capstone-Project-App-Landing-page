@@ -39,12 +39,14 @@
         margin-left: 30px;
         color: #ec5242;
         font-family: 'Lato', sans-serif;
+        font-size: 30px;
     }
 
     .main-heading {
         margin-left: 30px;
         color: #ec5242;
-        font-family: 'COCOGOOSE', sans-serif;                                            
+        font-family: 'COCOGOOSE', sans-serif;  
+        font-size: 33px;                                          
     }
 
     .description {
@@ -60,6 +62,7 @@
         font-family: 'Lato', sans-serif;
         font-weight: 500;
         color: black;
+        font-size: 18px;
     }
 
     .download-link {
@@ -75,7 +78,7 @@
         gap: 10px;
        height: 680px;
        width: 100%;
-        margin-left: -20px;
+        margin-left: -5px;
         position: relative;
       
        
@@ -93,7 +96,8 @@
 
     .feature-title{
         color: #ec5242;
-        font-family: 'COCOGOOSE', sans-serif;   
+        font-family: 'COCOGOOSE', sans-serif;
+        font-size: 16px;
     }
 
     .feature-icon{
@@ -104,6 +108,7 @@
     .feature-text{
         color: white;
         font-family: 'Lato', sans-serif;
+        font-size: 15px;
     }
 
     .feature {
@@ -211,6 +216,7 @@
         color: white;
         font-family: 'Lato', sans-serif;
         border: none;
+        font-size: 20px;
     }
 
     .partner-container{
@@ -223,17 +229,11 @@
         width: 150px;
     }
 
-    .footer-cap{
-        font-family: 'Lato', sans-serif;
-        float: right;
-        margin-top: 280px;
-        margin-right: 200px;
-    }
-
     .footer-text{
        margin-top: -80px;
        margin-left: 180px;
        font-family: 'Lato', sans-serif;
+       font-size: 16px;
     }
 
 

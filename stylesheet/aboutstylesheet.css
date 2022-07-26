@@ -19,18 +19,22 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-       height: 150px;
+       height: 200px;
        width: 100%;
+       min-width: none;
+       background: rgba(201, 194, 193, 0.3);
     }
     .welcome{
         color: #ec5242;
         font-family: 'Lato', sans-serif;
+        font-size: 28px;
     }
     
     .about-header{
         text-align: center;
         color: #ec5242;
-        font-family: 'COCOGOOSE', sans-serif;   
+        font-family: 'COCOGOOSE', sans-serif;
+        font-size: 28px;
     }
 
     #company{
@@ -41,9 +45,10 @@
        width: 100%;
        border-style: solid;
        border-color: gainsboro;
-       border-width: 2px;
-       margin-top: 30px;
-       
+       border-width: 3px;
+       margin-top: 2px;
+       min-width: none;
+       background: rgba(201, 194, 193, 0.3);   
     }
 
     .company-details{
@@ -51,6 +56,7 @@
         font-family: 'Lato', sans-serif;
         font-weight: 500;
         color: black;
+        font-size: 16px;
     }
 
     #email{
@@ -59,6 +65,7 @@
         align-items: center;
        height: 100px;
        width: 100%;
+       background: rgba(201, 194, 193, 0.3);
     }
 
     .email-text,
@@ -67,6 +74,7 @@
         font-family: 'Lato', sans-serif;
         font-weight: 500;
         color: black;
+        font-size: 16px;
     }
     
     .logo-head,
@@ -74,6 +82,7 @@
         text-align: center;
         color: black;
         font-family: 'COCOGOOSE', sans-serif; 
+        font-size: 28px;
 
     }
 
@@ -83,6 +92,7 @@
         font-family: 'Lato', sans-serif;
         font-weight: 500;
         color: black;
+        font-size: 19px;
 
     }
 
@@ -99,33 +109,93 @@
         overflow: hidden;
         position: relative;
         width: 100%;
-        height: 1500px;
+        height: 1420px;
     }
     .project-1{
         opacity: 0.5;
         position: absolute;
-        left: 5px;
-        top: 100px;
+        left: 55px;
+        right: 35px;
+        top: 200px;
+        background: rgba(236,82,66,.3);
        
 
     }
 
-    .project-text{
+    .project-text {
         text-align: center;
-        color: white;
+        color:black;
         font-family: 'COCOGOOSE', sans-serif; 
-
-
+        margin-top: 70px;
     }
 
     .project-2 {
         opacity: 0.5;
         position: absolute;
-        left: 5px;
-        top: 750px;
+        left: 15px;
+        right: 15px;
+        top: 900px;
         width: 100%;
         height: 500px;
+        background: rgba(236,82,66,.3);
     }
+
+    .project-text-2{
+        text-align: center;
+        color:black;
+        font-family: 'COCOGOOSE', sans-serif; 
+        margin-top: 700px;
+    }
+
+    .partner-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+       height: 400px;
+       width: 100%;
+       background-color: #272a31;
+
+    }
+
+    #partners{
+        color:white;
+        font-family: 'Lato', sans-serif;
+        font-size: 26px;
+
+    }
+
+    .partner-logo{
+        margin-left: 50px;
+    }
+    .logo-1,
+    .logo-2,
+    .logo-3,
+    .logo-4{
+        
+        height: 120px;
+        width: 180px;
+    }
+
+    .logo-5{
+        margin-top: 30px;
+         height: 100px;
+         width: 150px;
+     }
+ 
+     .footer-cap{
+         font-family: 'Lato', sans-serif;
+         float: right;
+         margin-top: 30px;
+         margin-right: 200px;
+     }
+ 
+     .footer-text{
+        margin-top: -80px;
+        margin-left: 180px;
+        font-family: 'Lato', sans-serif;
+     }
+
+
 
 
 }
