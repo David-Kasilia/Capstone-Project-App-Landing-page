@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Mobile Application Landing Page</title>
     <link rel="icon" href="../images/icon.png">
+    <link rel="stylesheet" href="../stylesheet/mobile.css">
+    <link rel="stylesheet" href="../stylesheet/style.css">
 </head>
 <body>
     <div class="top-bar">
@@ -18,8 +20,8 @@
         </ul>
     </div>
     <nav>
-        <div class="logo">
-            <a href="#logo"><img class="logo" src="../images/Kasilia_Creations_Logo-removebg-preview.png" /></a>
+        <div id="logo">
+            <a href="#logo"><img class="logo-main" src="../images/Kasilia_Creations_Logo-removebg-preview.png" /></a>
             <caption>Kasilia Creations 2022</caption>
         </div>
         <div class="mobile-menu"><img class="menu-icon" src="../images/menu-icon.png" alt="Hamburger Menu Icon Image" /></div>
@@ -28,10 +30,10 @@
             <li class="mitem"><a href="#heading">About</a></li>
             <li class="mitem"><a href="../index.html#features">Features</a></li>
             <li class="mitem"><a href="../index.html#patners">Partners</a></li>
-            <li class="mitem"><a href="#">Contact Us</a></li>
-            <li class="mitem"><a href="#">FAQs</a></li>
+            <li class="mitem"><a href="#email">Contact Us</a></li>
+            <li class="mitem"><a href="../index.html#speaker-container">Clients</a></li>
         </ul>
-        <a href=""><button type="button">Download Now</button></a>
+        <a href=""><button type="button" class="download">Download Now</button></a>
         </div>
     </nav>
     <main>
@@ -50,34 +52,44 @@
       </article>
     </section>
 
-     <div class="email">
-        <p>Please contact us per Email for any further questions about Kasilia Creations 2022<br>
-            <a href="#">kasiliacreations2022@gmail.com</a>
+     <div id="email">
+        <p class="email-text">Please contact us per Email for any further questions about Kasilia Creations 2022<br>
+            <a href="#" class="email-link">kasiliacreations2022@gmail.com</a>
         </p>
      </div>
 
      <section id="logo-details">
-        <h2>Kasilia Creations Logo <hr></h2>
-        <p>The logo of Kasilia Creations 2022 was created by Kasilia Creations graphic designers.</p>
-        <img src="../images/Kasilia Creations Logo Slogan.png" alt="Kasilia Creations Full Logo">
+        <h2 class="logo-head">Kasilia Creations Logo <hr></h2>
+        <p class="logo-text">The logo of Kasilia Creations 2022 was created by Kasilia Creations graphic designers.</p>
+        <img class="full-logo" src="../images/Kasilia Creations Logo Slogan.png" alt="Kasilia Creations Full Logo">
      </section>
 
      <section id="more">
-        <h2>See More Projects From Kasilia Creations <hr></h2>
-        <p>Below Are the top most projects liked by our users and clients.</p>
-        <img src="../images/mobile-image-removebg-preview.png" alt="Image of an android phone">
-        <caption>Mobile Application 2022</caption>
-        <img src="../images/use-this-removebg-preview.png" alt="desktop setup unsplash image">
-        <caption>Website 2022</caption>
+        <h2 class="more-head">See More Projects From Kasilia Creations <hr></h2>
+        <p class="more-text">Below Are the top most projects liked by our users and clients.</p>
+        <img class="project-1" src="../images/mobile-image-removebg-preview.png" alt="Image of an android phone">
+        <caption class="project-text">Mobile Application 2022</caption>
+        <img class="project-2" src="../images/use-this-removebg-preview.png" alt="desktop setup unsplash image">
+        <caption class="project-text-2">Website 2022</caption>
 
      </section>
+
+     <section class="partner-container">
+        <div id="partners"><h2>Our Partners <hr></h2></div>
+        <div class="partner-logo">
+            <img class="logo-1" src="./images/google-removebg-preview.png" alt="Google Logo">
+            <img class="logo-2" src="./images/apple.png" alt="Apple Logo">
+            <img class="logo-3" src="./images/imgonline-com-ua-ReplaceColor-Wr6mhPM1Fc6-removebg-preview.png" alt="android-logo">
+            <img class="logo-4" src="./images/github-removebg-preview.png" alt="Github logo">
+        </div>
+    </section>
 
 
     </main>
     <footer id="about-footer">
         <img class="logo-5" src="./images/Kasilia_Creations_Logo-removebg-preview.png" alt="Kasilia Creations Logo">
-        <caption>Kasilia Creations</caption>
-        <p>2022 Kasilia Creations Capstone Project: Mobile Application Landing Page.</p>
+        <caption >Kasilia Creations</caption>
+        <p class="footer-text">2022 Kasilia Creations Capstone Project: Mobile Application Landing Page.</p>
     </footer>
 </body>
 </html>
