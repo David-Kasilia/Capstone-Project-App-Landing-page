@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Capstone Project: Mobile Application Landing Page</title>
     <link rel="icon" href="./images/icon.png">
-    <link rel="stylesheet" href="./stylesheet/mobile.css">
+    <link rel="stylesheet" href="./stylesheet/desktophome.css">
+    <link rel="stylesheet" href="./stylesheet/mobilehome.css">
     <link rel="stylesheet" href="./stylesheet/style.css">
     <link href="http://fonts.cdnfonts.com/css/cocogoose" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap" rel="stylesheet">
@@ -15,27 +16,42 @@
 </head>
 <body>
     <div class="top-bar">
+
         <a href="https://www.facebook.com/"><img class="fb-logo" src="./images/facebook-logo-removebg-preview.png" alt="Facebook Logo"></a>
         <a href="https://twitter.com/"><img class="twitter" src="./images/Vector(3).png" alt="Twitter Logo"></a>
         <ul class="top-items">
-            <li class="item"><a href="#">English</a></li>
-            <li class="item"><a href="#">My Page</a></li>
-            <li class="item"><a href="#">Logout</a></li>
+            <li ><a href="#" class="item">English</a></li>
+            <li ><a href="#" class="item">My Page</a></li>
+            <li ><a href="#" class="item">Logout</a></li>
         </ul>
     </div>
     <nav>
         <div id="logo">
-            <a href="#logo"><img class="logo-main" src="./images/Kasilia_Creations_Logo-removebg-preview.png" alt="Kasilia Creations Logo" /></a>
-            <p>Kasilia Creations 2022</p>
+            <a href="#logo"><img class="logo-main" src="./images/LOGO-removebg-preview.png" alt="Kasilia Creations Logo" /></a>
         </div>
-        <div class="mobile-menu"><img class="menu-icon" src="./images/menu-open.png" alt="Hamburger Menu Icon Image" /></div>
+        <div class="mobile-menu">
+            <ul class="mobile-items">
+                <li><a href="./pages/about.html"  class="mitem">About</a></li>
+                <li><a href="#features"  class="mitem">Features</a></li>
+                <li ><a href="#partners"  class="mitem">Partners</a></li>
+                <li><a href="./pages/about.html#email"  class="mitem">Contact Us</a></li>
+                <li><a href="#speaker-container"  class="mitem">Clients</a></li>
+            </ul>
+
+                <button class="hamburger" type="button">
+                    <img class="menu-icon" src="./images/menu-open.png" alt="Hamburger Menu Icon Image" />
+                    <img class="close-icon" src="./images/close-1912235-1617704.png" alt="Hamburger Close Icon Image" />
+                </button>
+        </div>
+
+       
         <div class="desktop-menu">
             <ul class="menu-items">
-            <li class="mitem"><a href="./pages/about.html">About</a></li>
-            <li class="mitem"><a href="#features">Features</a></li>
-            <li class="mitem"><a href="#partners">Partners</a></li>
-            <li class="mitem"><a href="./pages/about.html#email">Contact Us</a></li>
-            <li class="mitem"><a href="#speaker-container">Clients</a></li>
+            <li><a href="./pages/about.html"  class="mitem">About</a></li>
+            <li><a href="#features"  class="mitem">Features</a></li>
+            <li><a href="#partners"  class="mitem">Partners</a></li>
+            <li><a href="./pages/about.html#email"  class="mitem">Contact Us</a></li>
+            <li><a href="#speaker-container"  class="mitem">Clients</a></li>
         </ul>
        <button class="download" type="button">Download Now</button>
         </div>
@@ -45,7 +61,7 @@
             <header>
 
                 <img class="head-image" src="./images/decision-removebg-preview.png" alt="Tablet and Mobile phone"/>
-
+                <img class="desktop-image" src="./images/backdround-desktop.png" alt="Mobile phone application development"/>
                 <div class="head-container">
                     <h1 class="explore">Explore:</h1>
                     <h1 class="main-heading">AN AWESOME<br>APPLICATION LANDING PAGE</h1>
@@ -106,7 +122,7 @@
             <hr> 
             <div class="partner-logo">
                 <img class="logo-1" src="./images/google-removebg-preview.png" alt="Google Logo">
-                <img class="logo-2" src="./images/apple.png" alt="Apple Logo">
+                <img class="logo-2" src="../images/mozilla-2-removebg-preview.png" alt="Mozilla  Logo">
                 <img class="logo-3" src="./images/imgonline-com-ua-ReplaceColor-Wr6mhPM1Fc6-removebg-preview.png" alt="android-logo">
                 <img class="logo-4" src="./images/github-removebg-preview.png" alt="Github logo">
             </div>
@@ -117,6 +133,8 @@
         <img class="logo-5" src="./images/LOGO-removebg-preview.png" alt="Kasilia Creations Logo">
         <p class="footer-text">2022 Kasilia Creations Capstone Project: Mobile Application Landing Page.</p>
     </footer>
-    
+    <script src="./script/script.js">
+
+    </script>
 </body>
 </html>

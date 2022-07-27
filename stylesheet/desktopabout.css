@@ -1,0 +1,221 @@
+@media only screen and (min-width: 768px) {
+  .top-bar {
+    height: 50px;
+    background-color: #272a31;
+    margin: -8px -8px 1px -8px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  .top-items {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 50px;
+    margin-right: 130px;
+  }
+
+  .item {
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    color: white;
+    font-size: 18px;
+  }
+
+  .fb-logo {
+    height: 22px;
+    width: 22px;
+    margin-left: 980px;
+  }
+
+  nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    justify-content: space-evenly;
+    background-color: rgba(223, 215, 215, 0.3);
+  }
+
+  .mobile-menu,
+  .join-mobile {
+    display: none;
+  }
+
+  .logo-main {
+    height: 120px;
+    width: 200px;
+    margin-left: -240px;
+  }
+
+  .desktop-menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 60px;
+  }
+
+  .menu-items {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 50px;
+  }
+
+  #heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 200px;
+    width: 100%;
+    background: rgba(201, 194, 193, 0.3);
+  }
+
+  .welcome {
+    color: #ec5242;
+    font-family: 'Lato', sans-serif;
+    font-size: 28px;
+  }
+
+  .about-header {
+    text-align: center;
+    color: #ec5242;
+    font-family: 'COCOGOOSE', sans-serif;
+    font-size: 28px;
+    width: 100%;
+  }
+
+  #company {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 200px;
+    width: 100%;
+    border-style: solid;
+    border-color: gainsboro;
+    border-width: 3px;
+    background: rgba(201, 194, 193, 0.3);
+  }
+
+  .company-details {
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    color: black;
+    font-size: 18px;
+    margin: auto;
+  }
+
+  #email {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 130px;
+    width: 100%;
+    background: rgba(201, 194, 193, 0.3);
+  }
+
+  .email-text,
+  .email-link {
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    color: black;
+    font-size: 16px;
+    width: 100%;
+    margin: auto;
+  }
+
+  .logo-head,
+  .more-head {
+    text-align: center;
+    color: black;
+    font-family: 'COCOGOOSE', sans-serif;
+    font-size: 28px;
+  }
+
+  .logo-text,
+  .more-text {
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    color: black;
+    font-size: 19px;
+  }
+
+  .full-logo {
+    height: 550px;
+    width: 100%;
+    border-style: solid;
+    border-color: gainsboro;
+    border-width: 2px;
+    padding: 5px;
+  }
+
+  #more {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    height: 1420px;
+  }
+
+  .project-1 {
+    opacity: 0.5;
+    position: absolute;
+    left: 600px;
+    right: 35px;
+    top: 200px;
+    background: rgba(236, 82, 66, 0.3);
+  }
+
+  .project-text {
+    text-align: center;
+    color: black;
+    font-family: 'COCOGOOSE', sans-serif;
+    margin-top: 70px;
+  }
+
+  .project-2 {
+    opacity: 0.5;
+    position: absolute;
+    left: 450px;
+    right: 15px;
+    top: 900px;
+    width: 50%;
+    height: 500px;
+    background: rgba(236, 82, 66, 0.3);
+  }
+
+  .project-text-2 {
+    text-align: center;
+    color: black;
+    font-family: 'COCOGOOSE', sans-serif;
+    margin-top: 700px;
+  }
+
+  .partner-container {
+    display: none;
+  }
+
+  .logo-5 {
+    margin-top: 30px;
+    margin-left: 350px;
+    height: 100px;
+    width: 150px;
+  }
+
+  .footer-text {
+    margin-top: -70px;
+    margin-left: 520px;
+    font-family: 'Lato', sans-serif;
+    color: white;
+  }
+
+  footer {
+    background-color: #272a31;
+    height: 150px;
+  }
+}
