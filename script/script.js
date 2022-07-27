@@ -21,5 +21,3 @@ hamburger.addEventListener('click', mobileMenu);
 menuItems.forEach(
   (menuItem) => menuItem.addEventListener('click', mobileMenu),
 );
-
-
