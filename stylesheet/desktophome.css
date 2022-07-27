@@ -47,7 +47,7 @@
   .logo-main {
     height: 120px;
     width: 200px;
-    margin-left: -280px;
+    margin-left: -220px;
   }
 
   .desktop-menu {
@@ -282,5 +282,228 @@
     margin-top: -70px;
     margin-left: 520px;
     font-family: 'Lato', sans-serif;
+  }
+
+  #speaker-container {
+    position: relative;
+    height: 980px;
+    width: 100%;
+  }
+
+  .clients {
+    text-align: center;
+    color: black;
+    font-family: 'COCOGOOSE', sans-serif;
+    font-size: 28px;
+  }
+
+  .clients-image-1 {
+    height: 250px;
+    width: 400px;
+  }
+
+  .clients-name-1 {
+    position: absolute;
+    top: 90px;
+    left: 360px;
+    font-family: 'COCOGOOSE', sans-serif;
+    font-weight: 900;
+    font-size: 20px;
+  }
+
+  .clients-pro-1 {
+    position: absolute;
+    top: 130px;
+    left: 360px;
+    color: #ec5242;
+    font-family: 'Lato', sans-serif;
+  }
+
+  .clients-review-1 {
+    position: absolute;
+    top: 200px;
+    left: 355px;
+    text-align: center;
+    height: 150px;
+    width: 250px;
+    font-family: 'Lato', sans-serif;
+  }
+
+  .clients-image-2 {
+    position: absolute;
+    left: 750px;
+  }
+
+  .clients-name-2 {
+    position: absolute;
+    top: 90px;
+    left: 1020px;
+    font-family: 'COCOGOOSE', sans-serif;
+    font-weight: 900;
+    font-size: 20px;
+  }
+
+  .clients-pro-2 {
+    position: absolute;
+    top: 130px;
+    left: 1020px;
+    color: #ec5242;
+    font-family: 'Lato', sans-serif;
+  }
+
+  .clients-review-2 {
+    position: absolute;
+    top: 190px;
+    left: 1015px;
+    text-align: center;
+    height: 150px;
+    width: 250px;
+    font-family: 'Lato', sans-serif;
+  }
+
+  .clients-image-3 {
+    height: 200px;
+    position: absolute;
+    top: 350px;
+    left: 130px;
+  }
+
+  .clients-name-3 {
+    position: absolute;
+    left: 360px;
+    top: 370px;
+    font-family: 'COCOGOOSE', sans-serif;
+    font-weight: 900;
+    font-size: 20px;
+  }
+
+  .clients-pro-3 {
+    position: absolute;
+    top: 410px;
+    left: 360px;
+    color: #ec5242;
+    font-family: 'Lato', sans-serif;
+  }
+
+  .clients-review-3 {
+    position: absolute;
+    top: 450px;
+    left: 355px;
+    text-align: center;
+    height: 150px;
+    width: 250px;
+    font-family: 'Lato', sans-serif;
+  }
+
+  .clients-image-4 {
+    height: 200px;
+    width: 400px;
+    position: absolute;
+    top: 350px;
+    left: 660px;
+  }
+
+  .clients-name-4 {
+    position: absolute;
+    top: 370px;
+    left: 1020px;
+    font-family: 'COCOGOOSE', sans-serif;
+    font-weight: 900;
+    font-size: 20px;
+  }
+
+  .clients-pro-4 {
+    position: absolute;
+    top: 410px;
+    left: 1020px;
+    color: #ec5242;
+    font-family: 'Lato', sans-serif;
+  }
+
+  .clients-review-4 {
+    position: absolute;
+    top: 450px;
+    left: 1015px;
+    text-align: center;
+    height: 150px;
+    width: 250px;
+    font-family: 'Lato', sans-serif;
+  }
+
+  .clients-image-5 {
+    position: absolute;
+    left: 120px;
+    top: 650px;
+  }
+
+  .clients-name-5 {
+    position: absolute;
+    left: 360px;
+    top: 700px;
+    font-family: 'COCOGOOSE', sans-serif;
+    font-weight: 900;
+    font-size: 20px;
+  }
+
+  .clients-pro-5 {
+    position: absolute;
+    top: 750px;
+    left: 360px;
+    color: #ec5242;
+    font-family: 'Lato', sans-serif;
+  }
+
+  .clients-review-5 {
+    position: absolute;
+    top: 800px;
+    left: 355px;
+    text-align: center;
+    height: 150px;
+    width: 250px;
+    font-family: 'Lato', sans-serif;
+  }
+
+  .clients-image-6 {
+    height: 200px;
+    position: absolute;
+    left: 830px;
+    top: 650px;
+  }
+
+  .clients-name-6 {
+    position: absolute;
+    left: 1020px;
+    top: 680px;
+    font-family: 'COCOGOOSE', sans-serif;
+    font-weight: 900;
+    font-size: 20px;
+  }
+
+  .clients-pro-6 {
+    position: absolute;
+    top: 720px;
+    left: 1020px;
+    color: #ec5242;
+    font-family: 'Lato', sans-serif;
+  }
+
+  .clients-review-6 {
+    position: absolute;
+    top: 770px;
+    left: 1015px;
+    text-align: center;
+    height: 150px;
+    width: 250px;
+    font-family: 'Lato', sans-serif;
+  }
+
+  .reveal,
+  #more-content,
+  .mobile-footer {
+    display: none;
+  }
+
+  #more-content {
+    visibility: hidden;
   }
 }

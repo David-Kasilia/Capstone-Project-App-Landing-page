@@ -215,4 +215,216 @@
     font-family: 'Lato', sans-serif;
     font-size: 16px;
   }
+
+  #speaker-container {
+    position: relative;
+    height: 550px;
+    overflow: hidden;
+    width: 100%;
+    margin-top: 180px;
+  }
+
+  .clients {
+    text-align: center;
+    color: black;
+    font-family: 'COCOGOOSE', sans-serif;
+    font-size: 28px;
+  }
+
+  .clients-image-1 {
+    position: absolute;
+    height: 180px;
+    width: 400px;
+    left: -70px;
+  }
+
+  .clients-name-1 {
+    position: absolute;
+    top: 120px;
+    left: 270px;
+    font-family: 'COCOGOOSE', sans-serif;
+    font-weight: 900;
+    font-size: 20px;
+  }
+
+  .clients-pro-1 {
+    position: absolute;
+    top: 170px;
+    left: 270px;
+    color: #ec5242;
+    font-family: 'Lato', sans-serif;
+  }
+
+  .clients-review-1 {
+    position: absolute;
+    top: 200px;
+    left: 255px;
+    text-align: center;
+    height: 150px;
+    width: 210px;
+    font-family: 'Lato', sans-serif;
+  }
+
+  .clients-image-2 {
+    position: absolute;
+    top: 320px;
+    left: 10px;
+  }
+
+  .clients-name-2 {
+    position: absolute;
+    top: 340px;
+    left: 240px;
+    font-family: 'COCOGOOSE', sans-serif;
+    font-weight: 900;
+    font-size: 20px;
+  }
+
+  .clients-pro-2 {
+    position: absolute;
+    top: 400px;
+    left: 240px;
+    color: #ec5242;
+    font-family: 'Lato', sans-serif;
+  }
+
+  .clients-review-2 {
+    position: absolute;
+    top: 440px;
+    left: 235px;
+    text-align: center;
+    height: 150px;
+    width: 220px;
+    font-family: 'Lato', sans-serif;
+  }
+
+  .clients-image-3 {
+    height: 200px;
+  }
+
+  .clients-name-3 {
+    font-family: 'COCOGOOSE', sans-serif;
+    font-weight: 900;
+    font-size: 20px;
+    margin-top: -170px;
+    margin-left: 240px;
+  }
+
+  .clients-pro-3 {
+    margin-left: 240px;
+    color: #ec5242;
+    font-family: 'Lato', sans-serif;
+  }
+
+  .clients-review-3 {
+    margin-left: 200px;
+    text-align: center;
+    height: 150px;
+    width: 220px;
+    font-family: 'Lato', sans-serif;
+  }
+
+  .clients-image-4 {
+    width: 400px;
+    height: 200px;
+    margin-left: -120px;
+  }
+
+  .clients-name-4 {
+    margin-left: 240px;
+    margin-top: -180px;
+    font-family: 'COCOGOOSE', sans-serif;
+    font-weight: 900;
+    font-size: 20px;
+  }
+
+  .clients-pro-4 {
+    margin-left: 240px;
+    color: #ec5242;
+    font-family: 'Lato', sans-serif;
+  }
+
+  .clients-review-4 {
+    margin-left: 220px;
+    text-align: center;
+    height: 150px;
+    width: 220px;
+    font-family: 'Lato', sans-serif;
+  }
+
+  .clients-name-5 {
+    margin-left: 240px;
+    margin-top: -180px;
+    font-family: 'COCOGOOSE', sans-serif;
+    font-weight: 900;
+    font-size: 20px;
+  }
+
+  .clients-pro-5 {
+    margin-left: 240px;
+    color: #ec5242;
+    font-family: 'Lato', sans-serif;
+  }
+
+  .clients-review-5 {
+    margin-left: 240px;
+    text-align: center;
+    height: 150px;
+    width: 220px;
+    font-family: 'Lato', sans-serif;
+  }
+
+  .clients-image-6 {
+    height: 200px;
+  }
+
+  .clients-name-6 {
+    margin-left: 240px;
+    margin-top: -180px;
+    font-family: 'COCOGOOSE', sans-serif;
+    font-weight: 900;
+    font-size: 20px;
+  }
+
+  .clients-pro-6 {
+    margin-left: 240px;
+    color: #ec5242;
+    font-family: 'Lato', sans-serif;
+  }
+
+  .clients-review-6 {
+    margin-left: 220px;
+    text-align: center;
+    height: 150px;
+    width: 220px;
+    font-family: 'Lato', sans-serif;
+  }
+
+  .desktop-data,
+  .desktop-footer {
+    display: none;
+  }
+
+  #more-content {
+    display: none;
+    width: 100%;
+    margin-top: 80px;
+  }
+
+  .mobile-footer {
+    margin-top: -190px;
+  }
+
+  .reveal {
+    position: relative;
+    top: 50px;
+    left: 40px;
+    width: 85%;
+    height: 60px;
+    background-color: white;
+    font-family: 'COCOGOOSE', sans-serif;
+    font-size: 14px;
+    border-radius: 2px;
+    border-color: #d3d3d3;
+  }
 }
