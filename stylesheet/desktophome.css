@@ -300,6 +300,11 @@
   .clients-image-1 {
     height: 250px;
     width: 400px;
+    background-image: url('../images/chekered.jpg');
+    background-position: center;
+    background-clip: border-box;
+    background-size: 135px 170px;
+    background-repeat: no-repeat;
   }
 
   .clients-name-1 {
@@ -317,6 +322,7 @@
     left: 360px;
     color: #ec5242;
     font-family: 'Lato', sans-serif;
+    font-style: italic;
   }
 
   .clients-review-1 {
@@ -332,6 +338,11 @@
   .clients-image-2 {
     position: absolute;
     left: 750px;
+    background-image: url('../images/chekered.jpg');
+    background-position: left center top;
+    background-clip: border-box;
+    background-size: 155px 120px;
+    background-repeat: no-repeat;
   }
 
   .clients-name-2 {
@@ -349,6 +360,7 @@
     left: 1020px;
     color: #ec5242;
     font-family: 'Lato', sans-serif;
+    font-style: italic;
   }
 
   .clients-review-2 {
@@ -366,6 +378,11 @@
     position: absolute;
     top: 350px;
     left: 130px;
+    background-image: url('../images/chekered.jpg');
+    background-position: center left top;
+    background-clip: border-box;
+    background-size: 125px 90px;
+    background-repeat: no-repeat;
   }
 
   .clients-name-3 {
@@ -383,6 +400,7 @@
     left: 360px;
     color: #ec5242;
     font-family: 'Lato', sans-serif;
+    font-style: italic;
   }
 
   .clients-review-3 {
@@ -401,6 +419,11 @@
     position: absolute;
     top: 350px;
     left: 660px;
+    background-image: url('../images/chekered.jpg');
+    background-position: center top;
+    background-clip: border-box;
+    background-size: 135px 100px;
+    background-repeat: no-repeat;
   }
 
   .clients-name-4 {
@@ -418,6 +441,7 @@
     left: 1020px;
     color: #ec5242;
     font-family: 'Lato', sans-serif;
+    font-style: italic;
   }
 
   .clients-review-4 {
@@ -434,6 +458,11 @@
     position: absolute;
     left: 120px;
     top: 650px;
+    background-image: url('../images/chekered.jpg');
+    background-position: center left top;
+    background-clip: border-box;
+    background-size: 135px 100px;
+    background-repeat: no-repeat;
   }
 
   .clients-name-5 {
@@ -451,6 +480,7 @@
     left: 360px;
     color: #ec5242;
     font-family: 'Lato', sans-serif;
+    font-style: italic;
   }
 
   .clients-review-5 {
@@ -468,6 +498,11 @@
     position: absolute;
     left: 830px;
     top: 650px;
+    background-image: url('../images/chekered.jpg');
+    background-position: center left top;
+    background-clip: border-box;
+    background-size: 105px 100px;
+    background-repeat: no-repeat;
   }
 
   .clients-name-6 {
@@ -477,6 +512,7 @@
     font-family: 'COCOGOOSE', sans-serif;
     font-weight: 900;
     font-size: 20px;
+   
   }
 
   .clients-pro-6 {
@@ -485,6 +521,7 @@
     left: 1020px;
     color: #ec5242;
     font-family: 'Lato', sans-serif;
+    font-style: italic;
   }
 
   .clients-review-6 {

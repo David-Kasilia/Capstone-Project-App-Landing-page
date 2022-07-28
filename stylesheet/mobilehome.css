@@ -218,7 +218,7 @@
 
   #speaker-container {
     position: relative;
-    height: 550px;
+    height: 600px;
     overflow: hidden;
     width: 100%;
     margin-top: 180px;
@@ -235,12 +235,18 @@
     position: absolute;
     height: 180px;
     width: 400px;
+    top: 160px;
     left: -70px;
+    background-image: url('../images/chekered.jpg');
+    background-position:  center top;
+    background-clip: border-box;
+    background-size: 155px 120px;
+    background-repeat: no-repeat;
   }
 
   .clients-name-1 {
     position: absolute;
-    top: 120px;
+    top: 160px;
     left: 270px;
     font-family: 'COCOGOOSE', sans-serif;
     font-weight: 900;
@@ -249,7 +255,7 @@
 
   .clients-pro-1 {
     position: absolute;
-    top: 170px;
+    top: 200px;
     left: 270px;
     color: #ec5242;
     font-family: 'Lato', sans-serif;
@@ -257,7 +263,7 @@
 
   .clients-review-1 {
     position: absolute;
-    top: 200px;
+    top: 240px;
     left: 255px;
     text-align: center;
     height: 150px;
@@ -267,13 +273,18 @@
 
   .clients-image-2 {
     position: absolute;
-    top: 320px;
+    top: 380px;
     left: 10px;
+    background-image: url('../images/chekered.jpg');
+    background-position:  center top;
+    background-clip: border-box;
+    background-size: 155px 120px;
+    background-repeat: no-repeat;
   }
 
   .clients-name-2 {
     position: absolute;
-    top: 340px;
+    top: 380px;
     left: 240px;
     font-family: 'COCOGOOSE', sans-serif;
     font-weight: 900;
@@ -282,7 +293,7 @@
 
   .clients-pro-2 {
     position: absolute;
-    top: 400px;
+    top: 420px;
     left: 240px;
     color: #ec5242;
     font-family: 'Lato', sans-serif;
@@ -290,7 +301,7 @@
 
   .clients-review-2 {
     position: absolute;
-    top: 440px;
+    top: 460px;
     left: 235px;
     text-align: center;
     height: 150px;
@@ -300,6 +311,11 @@
 
   .clients-image-3 {
     height: 200px;
+    background-image: url('../images/chekered.jpg');
+    background-position:  center top;
+    background-clip: border-box;
+    background-size: 155px 120px;
+    background-repeat: no-repeat;
   }
 
   .clients-name-3 {
@@ -328,6 +344,11 @@
     width: 400px;
     height: 200px;
     margin-left: -120px;
+    background-image: url('../images/chekered.jpg');
+    background-position:  center top;
+    background-clip: border-box;
+    background-size: 155px 120px;
+    background-repeat: no-repeat;
   }
 
   .clients-name-4 {
@@ -350,6 +371,14 @@
     height: 150px;
     width: 220px;
     font-family: 'Lato', sans-serif;
+  }
+
+  .clients-image-5{
+    background-image: url('../images/chekered.jpg');
+    background-position: left center top;
+    background-clip: border-box;
+    background-size: 155px 120px;
+    background-repeat: no-repeat;
   }
 
   .clients-name-5 {
@@ -376,6 +405,11 @@
 
   .clients-image-6 {
     height: 200px;
+    background-image: url('../images/chekered.jpg');
+    background-position:  center top;
+    background-clip: border-box;
+    background-size: 155px 120px;
+    background-repeat: no-repeat;
   }
 
   .clients-name-6 {
