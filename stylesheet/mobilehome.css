@@ -238,7 +238,7 @@
     top: 160px;
     left: -70px;
     background-image: url('../images/chekered.jpg');
-    background-position:  center top;
+    background-position: center top;
     background-clip: border-box;
     background-size: 155px 120px;
     background-repeat: no-repeat;
@@ -276,7 +276,7 @@
     top: 380px;
     left: 10px;
     background-image: url('../images/chekered.jpg');
-    background-position:  center top;
+    background-position: center top;
     background-clip: border-box;
     background-size: 155px 120px;
     background-repeat: no-repeat;
@@ -312,7 +312,7 @@
   .clients-image-3 {
     height: 200px;
     background-image: url('../images/chekered.jpg');
-    background-position:  center top;
+    background-position: center top;
     background-clip: border-box;
     background-size: 155px 120px;
     background-repeat: no-repeat;
@@ -345,7 +345,7 @@
     height: 200px;
     margin-left: -120px;
     background-image: url('../images/chekered.jpg');
-    background-position:  center top;
+    background-position: center top;
     background-clip: border-box;
     background-size: 155px 120px;
     background-repeat: no-repeat;
@@ -373,9 +373,9 @@
     font-family: 'Lato', sans-serif;
   }
 
-  .clients-image-5{
+  .clients-image-5 {
     background-image: url('../images/chekered.jpg');
-    background-position: left center top;
+    background-position: left top;
     background-clip: border-box;
     background-size: 155px 120px;
     background-repeat: no-repeat;
@@ -406,7 +406,7 @@
   .clients-image-6 {
     height: 200px;
     background-image: url('../images/chekered.jpg');
-    background-position:  center top;
+    background-position: center top;
     background-clip: border-box;
     background-size: 155px 120px;
     background-repeat: no-repeat;
