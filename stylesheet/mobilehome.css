@@ -2,7 +2,9 @@
   .top-bar,
   #logo,
   .desktop-menu,
-  .desktop-image {
+  .desktop-image,
+  .app,
+  .get {
     display: none;
   }
 

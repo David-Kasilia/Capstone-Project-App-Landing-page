@@ -542,4 +542,29 @@
   #more-content {
     visibility: hidden;
   }
+
+  .app {
+    position: absolute;
+    margin-top: 250px;
+    margin-left: 650px;
+    font-family: 'COCOGOOSE', sans-serif;
+    font-size: 16px;
+    color: white;
+  }
+
+  .app:visited {
+    color: white;
+  }
+
+  .app:hover {
+    color: #fff;
+  }
+
+  .get {
+    position: absolute;
+    margin-top: 280px;
+    margin-left: 580px;
+    color: white;
+    width: 450px;
+  }
 }
