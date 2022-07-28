@@ -63,4 +63,8 @@ Contributions, issues, and feature request are welcome anytime.
 # Show your support
 Give a Like or a Star if you like this project.
 
-
+# Acknowledgements
+<ul>
+<li>Microverse</li>
+ <li><a href=" Cindy Shin in Behance.">Cindy Shin in Behance.</a></li>
+ </ul>

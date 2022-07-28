@@ -134,21 +134,7 @@ moreContentData.innerHTML = `
 <p class="clients-name-3">${desktopSpeakerTitle.speaker3}</p>
 <p class="clients-pro-3">${desktopSpeakerTitle.profession3}</p>
 <p class="clients-review-3">${desktopSpeakerTitle.review3}</p>
-<img class="clients-image-4" src="${desktopSpeakerTitle.speakerImage4}">
-<img class="background4"src="${desktopSpeakerTitle.background4}">
-<p class="clients-name-4">${desktopSpeakerTitle.speaker4}</p>
-<p class="clients-pro-4">${desktopSpeakerTitle.profession4}</p>
-<p class="clients-review-4">${desktopSpeakerTitle.review4}</p>
-<img class="clients-image-5" src="${desktopSpeakerTitle.speakerImage5}">
-<img class="background5"src="${desktopSpeakerTitle.background5}">
-<p class="clients-name-5">${desktopSpeakerTitle.speaker5}</p>
-<p class="clients-pro-5">${desktopSpeakerTitle.profession5}</p>
-<p class="clients-review-5">${desktopSpeakerTitle.review5}</p>
-<img class="clients-image-6" src="${desktopSpeakerTitle.speakerImage6}">
-<img class="background6"src="${desktopSpeakerTitle.background6}">
-<p class="clients-name-6">${desktopSpeakerTitle.speaker6}</p>
-<p class="clients-pro-6">${desktopSpeakerTitle.profession6}</p>
-<p class="clients-review-6">${desktopSpeakerTitle.review6}</p>
+
 `;
 
 function revealMoreContent() {
