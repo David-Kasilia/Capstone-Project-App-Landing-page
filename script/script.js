@@ -149,10 +149,6 @@ moreContentData.innerHTML = `
 <p class="clients-name-6">${desktopSpeakerTitle.speaker6}</p>
 <p class="clients-pro-6">${desktopSpeakerTitle.profession6}</p>
 <p class="clients-review-6">${desktopSpeakerTitle.review6}</p>
-<footer class="mobile-footer">
-<img class="logo-5" src="./images/LOGO-removebg-preview.png" alt="Kasilia Creations Logo">
-<p class="footer-text">2022 Kasilia Creations Capstone Project: Mobile Application Landing Page.</p>
-</footer>
 `;
 
 function revealMoreContent() {

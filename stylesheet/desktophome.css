@@ -298,8 +298,8 @@
 
   #speaker-container {
     position: relative;
-    height: 980px;
     width: 100%;
+    height: 950px;
   }
 
   .clients {
@@ -317,7 +317,7 @@
     width: 150px;
   }
 
-  .background1{
+  .background1 {
     height: 100px;
     width: 100px;
     margin-left: 120px;
@@ -364,11 +364,10 @@
     top: 150px;
   }
 
-  .background2{
+  .background2 {
     height: 100px;
     width: 100px;
-    margin-left: 500px ;
-   
+    margin-left: 500px;
   }
 
   .clients-name-2 {
@@ -410,7 +409,8 @@
     top: 430px;
     left: 170px;
   }
-  .background3{
+
+  .background3 {
     height: 100px;
     width: 100px;
     margin-left: -100px;
@@ -457,10 +457,10 @@
     left: 760px;
   }
 
-  .background4{
+  .background4 {
     height: 100px;
     width: 100px;
-   margin-left: 500px;
+    margin-left: 500px;
   }
 
   .clients-name-4 {
@@ -503,7 +503,7 @@
     top: 700px;
   }
 
-  .background5{
+  .background5 {
     height: 100px;
     width: 100px;
     float: left;
@@ -551,12 +551,12 @@
     top: 700px;
   }
 
-  .background6{
+  .background6 {
     height: 100px;
     width: 100px;
-   float: right;
-   margin-right: 730px;
-   margin-top: 150px;
+    float: right;
+    margin-right: 730px;
+    margin-top: 150px;
   }
 
   .clients-name-6 {
