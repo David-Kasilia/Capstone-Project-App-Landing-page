@@ -37,6 +37,7 @@
     color: #ec5242;
     font-family: 'Lato', sans-serif;
     font-size: 30px;
+    font-weight: 500;
   }
 
   .main-heading {
@@ -44,6 +45,8 @@
     color: #ec5242;
     font-family: 'COCOGOOSE', sans-serif;
     font-size: 33px;
+    font-weight: 800;
+    margin-top: -20px;
   }
 
   .description {
