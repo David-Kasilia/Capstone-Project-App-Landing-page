@@ -220,7 +220,7 @@
     display: none;
   }
 
-  .logo-5 {
+  /* .logo-5 {
     margin-top: 150px;
     height: 100px;
     width: 150px;
@@ -231,13 +231,12 @@
     margin-left: 180px;
     font-family: 'Lato', sans-serif;
     font-size: 16px;
-  }
+  } */
 
   #speaker-container {
     position: relative;
     width: 100%;
     margin-top: 180px;
-    height: 600px;
   }
 
   .clients {
@@ -542,12 +541,12 @@
   #more-content {
     display: none;
     width: 100%;
-    margin-top: 80px;
+    margin-top: 280px;
   }
 
   .reveal {
     position: relative;
-    top: -30px;
+    top: 160px;
     left: 40px;
     width: 85%;
     height: 60px;
