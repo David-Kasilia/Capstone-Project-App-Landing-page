@@ -47,7 +47,7 @@
   .logo-main {
     height: 120px;
     width: 200px;
-    margin-left: -280px;
+    margin-left: -220px;
   }
 
   .desktop-menu {
@@ -65,7 +65,7 @@
   }
 
   .desktop-image {
-    opacity: 0.2;
+    opacity: 0.1;
     position: absolute;
     left: 5px;
     top: 170px;
@@ -112,17 +112,29 @@
     left: 200px;
     text-align: center;
     font-family: 'Lato', sans-serif;
-    font-weight: 500;
-    color: black;
+    font-weight: 800;
+    color: #5d5d5d;
     font-size: 18px;
     border-style: solid;
-    border-color: gainsboro;
+    border-color: rgb(220, 220, 220);
     border-width: 2px;
     padding: 15px;
   }
 
-  .download-link {
-    margin: -350px 80px 50px 300px;
+  .down-1 {
+    margin: -350px 80px 50px 270px;
+    font-weight: 800;
+    color: #5d5d5d;
+    font-family: 'COCOGOOSE', sans-serif;
+    font-size: 26px;
+  }
+
+  .down-2 {
+    margin: -45px 80px 50px 270px;
+    font-weight: 800;
+    color: #5d5d5d;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
   }
 
   .features-container {
@@ -282,5 +294,335 @@
     margin-top: -70px;
     margin-left: 520px;
     font-family: 'Lato', sans-serif;
+  }
+
+  #speaker-container {
+    position: relative;
+    width: 100%;
+    height: 950px;
+  }
+
+  .clients {
+    text-align: center;
+    color: black;
+    font-family: 'COCOGOOSE', sans-serif;
+    font-size: 28px;
+  }
+
+  .clients-image-1 {
+    position: absolute;
+    top: 150px;
+    left: 170px;
+    height: 150px;
+    width: 150px;
+  }
+
+  .background1 {
+    height: 100px;
+    width: 100px;
+    margin-left: 120px;
+    margin-top: 50px;
+  }
+
+  .clients-name-1 {
+    position: absolute;
+    top: 135px;
+    left: 350px;
+    font-family: 'COCOGOOSE', sans-serif;
+    font-weight: 400;
+    color: #5d5d5d;
+    font-size: 20px;
+  }
+
+  .clients-pro-1 {
+    position: absolute;
+    top: 180px;
+    left: 354px;
+    color: #ec5242;
+    font-family: 'Lato', sans-serif;
+    font-style: italic;
+  }
+
+  .clients-review-1 {
+    position: absolute;
+    top: 225px;
+    left: 350px;
+    text-align: center;
+    height: 150px;
+    width: 250px;
+    font-family: 'COCOGOOSE', sans-serif;
+    color: #5d5d5d;
+    font-size: 12px;
+    font-weight: 100;
+  }
+
+  .clients-image-2 {
+    height: 150px;
+    width: 150px;
+    position: absolute;
+    left: 750px;
+    top: 150px;
+  }
+
+  .background2 {
+    height: 100px;
+    width: 100px;
+    margin-left: 500px;
+  }
+
+  .clients-name-2 {
+    position: absolute;
+    top: 130px;
+    left: 930px;
+    font-family: 'COCOGOOSE', sans-serif;
+    font-weight: 400;
+    color: #5d5d5d;
+    font-size: 20px;
+  }
+
+  .clients-pro-2 {
+    position: absolute;
+    top: 180px;
+    left: 930px;
+    color: #ec5242;
+    font-family: 'Lato', sans-serif;
+    font-style: italic;
+  }
+
+  .clients-review-2 {
+    position: absolute;
+    top: 225px;
+    left: 925px;
+    text-align: center;
+    height: 150px;
+    width: 250px;
+    font-family: 'COCOGOOSE', sans-serif;
+    color: #5d5d5d;
+    font-size: 12px;
+    font-weight: 100;
+  }
+
+  .clients-image-3 {
+    height: 150px;
+    width: 150px;
+    position: absolute;
+    top: 430px;
+    left: 170px;
+  }
+
+  .background3 {
+    height: 100px;
+    width: 100px;
+    margin-left: -100px;
+    margin-top: 180px;
+  }
+
+  .clients-name-3 {
+    position: absolute;
+    left: 360px;
+    top: 420px;
+    font-family: 'COCOGOOSE', sans-serif;
+    font-weight: 400;
+    color: #5d5d5d;
+    font-size: 20px;
+  }
+
+  .clients-pro-3 {
+    position: absolute;
+    top: 460px;
+    left: 360px;
+    color: #ec5242;
+    font-family: 'Lato', sans-serif;
+    font-style: italic;
+  }
+
+  .clients-review-3 {
+    position: absolute;
+    top: 510px;
+    left: 355px;
+    text-align: center;
+    height: 150px;
+    width: 250px;
+    font-family: 'COCOGOOSE', sans-serif;
+    color: #5d5d5d;
+    font-size: 12px;
+    font-weight: 100;
+  }
+
+  .clients-image-4 {
+    height: 150px;
+    width: 150px;
+    position: absolute;
+    top: 432px;
+    left: 760px;
+  }
+
+  .background4 {
+    height: 100px;
+    width: 100px;
+    margin-left: 500px;
+  }
+
+  .clients-name-4 {
+    position: absolute;
+    top: 425px;
+    left: 935px;
+    font-family: 'COCOGOOSE', sans-serif;
+    font-weight: 400;
+    color: #5d5d5d;
+    font-size: 20px;
+  }
+
+  .clients-pro-4 {
+    position: absolute;
+    top: 470px;
+    left: 935px;
+    color: #ec5242;
+    font-family: 'Lato', sans-serif;
+    font-style: italic;
+  }
+
+  .clients-review-4 {
+    position: absolute;
+    top: 510px;
+    left: 935px;
+    text-align: center;
+    height: 150px;
+    width: 250px;
+    font-family: 'COCOGOOSE', sans-serif;
+    color: #5d5d5d;
+    font-size: 12px;
+    font-weight: 100;
+  }
+
+  .clients-image-5 {
+    height: 150px;
+    width: 150px;
+    position: absolute;
+    left: 170px;
+    top: 700px;
+  }
+
+  .background5 {
+    height: 100px;
+    width: 100px;
+    float: left;
+    margin-left: 130px;
+    margin-top: 430px;
+  }
+
+  .clients-name-5 {
+    position: absolute;
+    left: 350px;
+    top: 685px;
+    font-family: 'COCOGOOSE', sans-serif;
+    font-weight: 400;
+    color: #5d5d5d;
+    font-size: 20px;
+  }
+
+  .clients-pro-5 {
+    position: absolute;
+    top: 730px;
+    left: 350px;
+    color: #ec5242;
+    font-family: 'Lato', sans-serif;
+    font-style: italic;
+  }
+
+  .clients-review-5 {
+    position: absolute;
+    top: 780px;
+    left: 350px;
+    text-align: center;
+    height: 150px;
+    width: 250px;
+    font-family: 'COCOGOOSE', sans-serif;
+    color: #5d5d5d;
+    font-size: 12px;
+    font-weight: 100;
+  }
+
+  .clients-image-6 {
+    height: 150px;
+    width: 150px;
+    position: absolute;
+    left: 770px;
+    top: 700px;
+  }
+
+  .background6 {
+    height: 100px;
+    width: 100px;
+    float: right;
+    margin-right: 730px;
+    margin-top: 150px;
+  }
+
+  .clients-name-6 {
+    position: absolute;
+    left: 950px;
+    top: 680px;
+    font-family: 'COCOGOOSE', sans-serif;
+    font-weight: 400;
+    color: #5d5d5d;
+    font-size: 20px;
+  }
+
+  .clients-pro-6 {
+    position: absolute;
+    top: 725px;
+    left: 950px;
+    color: #ec5242;
+    font-family: 'Lato', sans-serif;
+    font-style: italic;
+  }
+
+  .clients-review-6 {
+    position: absolute;
+    top: 780px;
+    left: 945px;
+    text-align: center;
+    height: 150px;
+    width: 250px;
+    font-family: 'COCOGOOSE', sans-serif;
+    color: #5d5d5d;
+    font-size: 12px;
+    font-weight: 100;
+  }
+
+  .reveal,
+  #more-content,
+  .mobile-footer {
+    display: none;
+  }
+
+  #more-content {
+    visibility: hidden;
+  }
+
+  .app {
+    position: absolute;
+    margin-top: 250px;
+    margin-left: 650px;
+    font-family: 'COCOGOOSE', sans-serif;
+    font-size: 16px;
+    color: white;
+  }
+
+  .app:visited {
+    color: white;
+  }
+
+  .app:hover {
+    color: #fff;
+  }
+
+  .get {
+    position: absolute;
+    margin-top: 280px;
+    margin-left: 580px;
+    color: white;
+    width: 450px;
   }
 }

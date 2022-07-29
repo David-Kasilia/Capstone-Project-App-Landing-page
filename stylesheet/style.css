@@ -4,7 +4,8 @@ hr {
 }
 
 body {
-  overflow: scroll;
+  overflow-x: hidden;
+  width: 100%;
 }
 
 a {
@@ -45,8 +46,7 @@ li {
   color: black;
 }
 
-.mitem::before,
-.item::before {
+.mitem::before {
   content: "";
   position: absolute;
   z-index: -1;
@@ -55,13 +55,13 @@ li {
   transform: translateY(calc(100% - 2px));
   width: 100%;
   height: 100%;
-  background-image: linear-gradient(60deg, #ec5242 0%, #ec5242 100%);
+  background-image: linear-gradient(60deg, #fff 0%, #fff 100%);
   transition: transform 0.25s ease-out;
 }
 
 .mitem:hover,
 .item:hover {
-  color: #fff;
+  color: #ec5242;
 }
 
 .mitem:hover::before,
@@ -138,15 +138,15 @@ li {
 
 .download {
   display: block;
-  background: #272a31;
+  background: white;
   width: 155px;
   height: 45px;
-  color: white;
+  color: #5d5d5d;
   font-size: 12px;
   font-family: 'Lato', sans-serif;
   padding: 10px;
   border-color: #ec5242;
-  border-radius: 10px;
+  border-width: 4px;
 }
 
 button:hover {

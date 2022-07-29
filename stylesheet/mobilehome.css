@@ -2,7 +2,9 @@
   .top-bar,
   #logo,
   .desktop-menu,
-  .desktop-image {
+  .desktop-image,
+  .app,
+  .get {
     display: none;
   }
 
@@ -35,6 +37,7 @@
     color: #ec5242;
     font-family: 'Lato', sans-serif;
     font-size: 30px;
+    font-weight: 500;
   }
 
   .main-heading {
@@ -42,6 +45,8 @@
     color: #ec5242;
     font-family: 'COCOGOOSE', sans-serif;
     font-size: 33px;
+    font-weight: 800;
+    margin-top: -20px;
   }
 
   .description {
@@ -55,12 +60,24 @@
     text-align: center;
     font-family: 'Lato', sans-serif;
     font-weight: 500;
-    color: black;
+    color: #5d5d5d;
     font-size: 18px;
   }
 
-  .download-link {
-    margin: 15px 80px 2px 80px;
+  .down-1 {
+    margin: 15px 80px 2px 40px;
+    font-weight: 800;
+    color: #5d5d5d;
+    font-family: 'COCOGOOSE', sans-serif;
+    font-size: 26px;
+  }
+
+  .down-2 {
+    margin: 15px 80px 2px 40px;
+    font-weight: 800;
+    color: #5d5d5d;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
   }
 
   .features-container {
@@ -128,7 +145,7 @@
     height: 100px;
     width: 93%;
     background-color: rgba(223, 215, 215, 0.3);
-    top: 220px;
+    top: 210px;
     left: 25px;
     right: 30px;
   }
@@ -143,7 +160,7 @@
     width: 93%;
     position: absolute;
     background-color: rgba(223, 215, 215, 0.3);
-    top: 340px;
+    top: 322px;
     left: 25px;
     right: 30px;
   }
@@ -158,7 +175,7 @@
     height: 100px;
     width: 93%;
     background-color: rgba(223, 215, 215, 0.3);
-    top: 460px;
+    top: 435px;
     left: 25px;
     right: 30px;
   }
@@ -173,7 +190,7 @@
     height: 100px;
     width: 93%;
     background-color: rgba(223, 215, 215, 0.3);
-    top: 580px;
+    top: 548px;
     left: 25px;
     right: 30px;
   }
@@ -187,8 +204,8 @@
 
   .join-mobile {
     position: absolute;
-    top: 720px;
-    left: 130px;
+    top: 680px;
+    left: 150px;
     right: 50px;
     background-color: #ec5242;
     width: 250px;
@@ -203,7 +220,7 @@
     display: none;
   }
 
-  .logo-5 {
+  /* .logo-5 {
     margin-top: 150px;
     height: 100px;
     width: 150px;
@@ -214,5 +231,329 @@
     margin-left: 180px;
     font-family: 'Lato', sans-serif;
     font-size: 16px;
+  } */
+
+  #speaker-container {
+    position: relative;
+    width: 100%;
+    margin-top: 180px;
+  }
+
+  .clients {
+    text-align: center;
+    color: black;
+    font-family: 'COCOGOOSE', sans-serif;
+    font-size: 28px;
+  }
+
+  .clients-image-1 {
+    position: absolute;
+    top: 145px;
+    left: 50px;
+    height: 150px;
+    width: 150px;
+  }
+
+  .background1 {
+    height: 100px;
+    width: 100px;
+    margin-left: -100px;
+    margin-top: 20px;
+  }
+
+  .clients-name-1 {
+    position: absolute;
+    top: 135px;
+    left: 230px;
+    font-family: 'COCOGOOSE', sans-serif;
+    font-weight: 400;
+    color: #5d5d5d;
+    font-size: 20px;
+  }
+
+  .clients-pro-1 {
+    position: absolute;
+    top: 175px;
+    left: 230px;
+    color: #ec5242;
+    font-family: 'Lato', sans-serif;
+    font-style: italic;
+  }
+
+  .clients-review-1 {
+    position: absolute;
+    top: 220px;
+    left: 230px;
+    text-align: center;
+    height: 150px;
+    width: 250px;
+    font-family: 'COCOGOOSE', sans-serif;
+    color: #5d5d5d;
+    font-size: 12px;
+    font-weight: 100;
+  }
+
+  .clients-image-2 {
+    height: 150px;
+    width: 150px;
+    position: absolute;
+    top: 380px;
+    left: 55px;
+  }
+
+  .background2 {
+    height: 100px;
+    width: 100px;
+    float: left;
+    margin-top: 250px;
+    margin-left: 20px;
+  }
+
+  .clients-name-2 {
+    position: absolute;
+    top: 360px;
+    font-family: 'COCOGOOSE', sans-serif;
+    font-weight: 400;
+    color: #5d5d5d;
+    font-size: 20px;
+    left: 230px;
+  }
+
+  .clients-pro-2 {
+    position: absolute;
+    top: 410px;
+    color: #ec5242;
+    font-family: 'Lato', sans-serif;
+    font-style: italic;
+    left: 230px;
+  }
+
+  .clients-review-2 {
+    position: absolute;
+    top: 455px;
+    text-align: center;
+    height: 150px;
+    width: 250px;
+    font-family: 'COCOGOOSE', sans-serif;
+    color: #5d5d5d;
+    font-size: 12px;
+    font-weight: 100;
+    left: 230px;
+  }
+
+  .clients-image-3 {
+    height: 150px;
+    width: 150px;
+    position: relative;
+    top: -50px;
+    left: -65px;
+  }
+
+  .background3 {
+    height: 100px;
+    width: 100px;
+    float: left;
+    margin-top: -90px;
+    margin-left: 22px;
+  }
+
+  .clients-name-3 {
+    position: relative;
+    top: -220px;
+    left: 230px;
+    font-family: 'COCOGOOSE', sans-serif;
+    font-weight: 400;
+    color: #5d5d5d;
+    font-size: 20px;
+  }
+
+  .clients-pro-3 {
+    position: relative;
+    top: -230px;
+    left: 230px;
+    color: #ec5242;
+    font-family: 'Lato', sans-serif;
+    font-style: italic;
+  }
+
+  .clients-review-3 {
+    position: relative;
+    top: -220px;
+    left: 230px;
+    text-align: center;
+    height: 150px;
+    width: 250px;
+    font-family: 'COCOGOOSE', sans-serif;
+    color: #5d5d5d;
+    font-size: 12px;
+    font-weight: 100;
+  }
+
+  .clients-image-4 {
+    height: 150px;
+    width: 150px;
+    position: relative;
+    top: -220px;
+    left: 60px;
+  }
+
+  .background4 {
+    height: 100px;
+    width: 100px;
+    float: left;
+    margin-top: -265px;
+    margin-left: 25px;
+  }
+
+  .clients-name-4 {
+    position: relative;
+    top: -390px;
+    left: 230px;
+    font-family: 'COCOGOOSE', sans-serif;
+    font-weight: 400;
+    color: #5d5d5d;
+    font-size: 20px;
+  }
+
+  .clients-pro-4 {
+    position: relative;
+    top: -400px;
+    left: 230px;
+    color: #ec5242;
+    font-family: 'Lato', sans-serif;
+    font-style: italic;
+  }
+
+  .clients-review-4 {
+    position: relative;
+    top: -390px;
+    left: 230px;
+    text-align: center;
+    height: 150px;
+    width: 250px;
+    font-family: 'COCOGOOSE', sans-serif;
+    color: #5d5d5d;
+    font-size: 12px;
+    font-weight: 100;
+  }
+
+  .clients-image-5 {
+    height: 150px;
+    width: 150px;
+    position: relative;
+    top: -400px;
+    left: 60px;
+  }
+
+  .background5 {
+    height: 100px;
+    width: 100px;
+    float: left;
+    margin-left: 30px;
+    margin-top: -430px;
+  }
+
+  .clients-name-5 {
+    position: relative;
+    top: -560px;
+    left: 230px;
+    font-family: 'COCOGOOSE', sans-serif;
+    font-weight: 400;
+    color: #5d5d5d;
+    font-size: 20px;
+  }
+
+  .clients-pro-5 {
+    position: relative;
+    top: -575px;
+    left: 230px;
+    color: #ec5242;
+    font-family: 'Lato', sans-serif;
+    font-style: italic;
+  }
+
+  .clients-review-5 {
+    position: relative;
+    top: -570px;
+    left: 230px;
+    text-align: center;
+    height: 150px;
+    width: 250px;
+    font-family: 'COCOGOOSE', sans-serif;
+    color: #5d5d5d;
+    font-size: 12px;
+    font-weight: 100;
+  }
+
+  .clients-image-6 {
+    height: 150px;
+    width: 150px;
+    position: relative;
+    top: -590px;
+    left: 65px;
+  }
+
+  .background6 {
+    height: 100px;
+    width: 100px;
+    float: left;
+    margin-left: 25px;
+    margin-top: -620px;
+  }
+
+  .clients-name-6 {
+    position: relative;
+    top: -750px;
+    left: 230px;
+    font-family: 'COCOGOOSE', sans-serif;
+    font-weight: 400;
+    color: #5d5d5d;
+    font-size: 20px;
+  }
+
+  .clients-pro-6 {
+    position: relative;
+    top: -760px;
+    left: 230px;
+    color: #ec5242;
+    font-family: 'Lato', sans-serif;
+    font-style: italic;
+  }
+
+  .clients-review-6 {
+    position: relative;
+    top: -760px;
+    left: 230px;
+    text-align: center;
+    height: 150px;
+    width: 250px;
+    font-family: 'COCOGOOSE', sans-serif;
+    color: #5d5d5d;
+    font-size: 12px;
+    font-weight: 100;
+  }
+
+  .desktop-data,
+  .desktop-footer {
+    display: none;
+  }
+
+  #more-content {
+    display: none;
+    width: 100%;
+    margin-top: 280px;
+  }
+
+  .reveal {
+    position: relative;
+    top: 160px;
+    left: 40px;
+    width: 85%;
+    height: 60px;
+    background-color: white;
+    font-family: 'COCOGOOSE', sans-serif;
+    font-size: 14px;
+    border-radius: 2px;
+    border-color: #d3d3d3;
   }
 }

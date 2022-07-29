@@ -48,7 +48,7 @@
   .logo-main {
     height: 120px;
     width: 200px;
-    margin-left: -240px;
+    margin-left: -180px;
   }
 
   .desktop-menu {
@@ -86,17 +86,11 @@
     font-family: 'COCOGOOSE', sans-serif;
     font-size: 28px;
     width: 100%;
+    margin: auto;
   }
 
   #company {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    height: 200px;
     width: 100%;
-    border-style: solid;
-    border-color: gainsboro;
-    border-width: 3px;
     background: rgba(201, 194, 193, 0.3);
   }
 
@@ -104,15 +98,21 @@
     text-align: center;
     font-family: 'Lato', sans-serif;
     font-weight: 500;
-    color: black;
+    color: #5d5d5d;
     font-size: 18px;
     margin: auto;
+    width: 65%;
+    border-style: solid;
+    border-color: gainsboro;
+    border-width: 3px;
+    padding: 30px;
   }
 
   #email {
     display: flex;
     flex-direction: column;
     align-items: center;
+    color: #5d5d5d;
     height: 130px;
     width: 100%;
     background: rgba(201, 194, 193, 0.3);
@@ -123,7 +123,7 @@
     text-align: center;
     font-family: 'Lato', sans-serif;
     font-weight: 500;
-    color: black;
+    color: #5d5d5d;
     font-size: 16px;
     width: 100%;
     margin: auto;
@@ -132,7 +132,7 @@
   .logo-head,
   .more-head {
     text-align: center;
-    color: black;
+    color: #5d5d5d;
     font-family: 'COCOGOOSE', sans-serif;
     font-size: 28px;
   }
@@ -142,58 +142,88 @@
     text-align: center;
     font-family: 'Lato', sans-serif;
     font-weight: 500;
-    color: black;
+    color: #5d5d5d;
     font-size: 19px;
   }
 
   .full-logo {
-    height: 550px;
-    width: 100%;
+    height: 350px;
+    width: 40%;
+    display: block;
+    margin: auto;
     border-style: solid;
     border-color: gainsboro;
     border-width: 2px;
-    padding: 5px;
+    padding: 30px 30px 30px 30px;
   }
 
   #more {
     overflow: hidden;
     position: relative;
     width: 100%;
-    height: 1420px;
+    height: 520px;
+  }
+
+  .overlay1 {
+    height: 300px;
+    width: 450px;
+    background-color: #ec5242;
+    position: absolute;
+    left: 350px;
+    right: 35px;
+    top: 160px;
   }
 
   .project-1 {
-    opacity: 0.5;
+    opacity: 0.4;
     position: absolute;
-    left: 600px;
+    left: 350px;
     right: 35px;
-    top: 200px;
-    background: rgba(236, 82, 66, 0.3);
+    top: 160px;
+    height: 300px;
+    width: 450px;
   }
 
   .project-text {
     text-align: center;
-    color: black;
+    color: white;
     font-family: 'COCOGOOSE', sans-serif;
-    margin-top: 70px;
+    position: absolute;
+    left: -400px;
+    right: 35px;
+    top: 180px;
+    font-weight: 800;
+  }
+
+  .overlay2 {
+    height: 300px;
+    width: 450px;
+    background-color: #ec5242;
+    position: absolute;
+    left: 850px;
+    right: 15px;
+    top: 160px;
   }
 
   .project-2 {
     opacity: 0.5;
     position: absolute;
-    left: 450px;
+    left: 850px;
     right: 15px;
-    top: 900px;
-    width: 50%;
-    height: 500px;
-    background: rgba(236, 82, 66, 0.3);
+    top: 160px;
+    height: 300px;
+    width: 450px;
   }
 
   .project-text-2 {
     text-align: center;
-    color: black;
+    color: white;
     font-family: 'COCOGOOSE', sans-serif;
-    margin-top: 700px;
+    position: absolute;
+    left: 600px;
+    right: 35px;
+    top: 180px;
+    font-weight: 800;
   }
 
   .partner-container {
