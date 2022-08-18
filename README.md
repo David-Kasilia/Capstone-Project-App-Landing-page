@@ -4,6 +4,14 @@ HTML/CSS &amp; JavaScript First Microverse Capstone Project.
 This Project is about an application Landing page and about the company that created the website.
 Below is a Live link of the project:
 
+## Desktop Version
+
+![capsoneuidesktop](https://user-images.githubusercontent.com/83514256/185428522-8e414c09-b4ec-43eb-a673-7e1eb161fdd3.PNG)
+
+## Mobile Version
+![capstoneMobile](https://user-images.githubusercontent.com/83514256/185428603-6469b056-e5cd-4688-98b1-f0c966f74f3d.PNG)
+
+
 ## Live Link To The Project
 https://david-kasilia.github.io/Capstone-Project-App-Landing-page/
 
